@@ -10,17 +10,17 @@ import org.springframework.web.servlet.ModelAndView;
 public class TestController {
 
     /*String 类型的返回值， 默认会找模板文件 templates  list.html
-    *
-    * */
+     *
+     * */
     @RequestMapping("/list")
 //    @ResponseBody
-    public String list(){
+    public String list() {
         return "list";
     }
 
     //跳转到jsp页面
     @RequestMapping("/list1")
-    public String list1(){
+    public String list1() {
         return "list1";
     }
 

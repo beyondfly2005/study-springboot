@@ -1,6 +1,6 @@
-package com.beyondsoft.demo;
+package com.beyondsoft.springboot;
 
-import com.beyondsoft.demo.config.MyInterceptor;
+import com.beyondsoft.springboot.config.MyInterceptor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -22,7 +22,7 @@ public class DemoApplication extends WebMvcConfigurerAdapter {
     }
 
     @Bean
-    MyInterceptor myInterceptor(){
+    MyInterceptor myInterceptor() {
         return new MyInterceptor();
     }
 }

@@ -1,4 +1,4 @@
-package com.beyondsoft.demo.controller;
+package com.beyondsoft.springboot.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,19 +9,19 @@ public class TestController {
 
     @RequestMapping("/hello")
     @ResponseBody
-    public String helloPage(){
+    public String helloPage() {
         return "hello ";
     }
 
     @RequestMapping("/login")
     @ResponseBody
-    public String login(){
+    public String login() {
         return "login ... ";
     }
 
     @RequestMapping("/index")
     @ResponseBody
-    public String index(){
+    public String index() {
         return "index ...";
     }
 }

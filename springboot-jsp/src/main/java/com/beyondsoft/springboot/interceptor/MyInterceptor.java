@@ -1,4 +1,4 @@
-package com.beyondsoft.springboot.config;
+package com.beyondsoft.springboot.interceptor;
 
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
@@ -10,6 +10,7 @@ public class MyInterceptor extends HandlerInterceptorAdapter {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         System.out.println("--这里是拦截器--");
+//        int i = 1 / 0;
         return true;
     }
 }

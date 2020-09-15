@@ -1,6 +1,6 @@
-package com.beyondsoft.demo;
+package com.beyondsoft.springboot;
 
-import com.beyondsoft.demo.config.MyInterceptor;
+import com.beyondsoft.springboot.config.MyInterceptor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.beyonsoft</groupId>
-    <artifactId>springboot-study</artifactId>
+    <artifactId>springboot-01-helloworld</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-study</name>
+    <name>springboot-01-helloworld</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -42,11 +42,11 @@
             </exclusions>
         </dependency>
 
-<!--        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-            <version>2.3.1.RELEASE</version>
-        </dependency>-->
+        <!--        <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+                    <version>2.3.1.RELEASE</version>
+                </dependency>-->
 
         <!-- springboot 支持jsp start-->
         <dependency>

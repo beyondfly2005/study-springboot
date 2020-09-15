@@ -1,4 +1,4 @@
-package com.beyondsoft.demo.config;
+package com.beyondsoft.springboot.config;
 
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 

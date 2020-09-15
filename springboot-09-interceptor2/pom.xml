@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.beyondsoft</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>springboot-09-interceptor2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>springboot-09-interceptor2</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
